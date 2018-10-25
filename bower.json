@@ -1,0 +1,16 @@
+{
+  "name": "observantrecords",
+  "description": "",
+  "main": "",
+  "homepage": "https://github.com/gbueno-f1/observant-records-on-f1-infra",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

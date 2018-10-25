@@ -1,0 +1,36 @@
+{
+  "generator-web-starter": {
+    "name": "observantrecords",
+    "repository": "https://github.com/gbueno-f1/observant-records-on-f1-infra",
+    "ruby_version": "2.3.0",
+    "plugins": [
+      "web-starter-wordpress:web-starter",
+      "web-starter-gesso:web-starter",
+      "web-starter-capistrano:web-starter",
+      "web-starter-grunt:web-starter",
+      "web-starter-salt:web-starter"
+    ]
+  },
+  "generator-web-starter-wordpress": {
+    "wp_version": "4.9.8",
+    "wp_starter": false,
+    "wp_cfm": false,
+    "wordpress_theme": "observantrecords",
+    "install_wordpress": true
+  },
+  "generator-web-starter-gesso": {
+    "install_gesso": true
+  },
+  "generator-web-starter-capistrano": {
+    "deploy_via": "rsync",
+    "keep_releases": 3
+  },
+  "generator-web-starter-salt": {
+    "doc_root": "web",
+    "webserver": "nginx",
+    "search": [],
+    "php_base": "php71u",
+    "mysql_base": "mysql56u",
+    "mysql_password": "web"
+  }
+}
